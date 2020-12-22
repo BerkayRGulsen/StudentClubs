@@ -1,3 +1,8 @@
+.nav-link:hover{
+    background: cornflowerblue;
+
+}
+
 .bg-blue{
     background-image: url("../images/background_blue.png");
 }
@@ -27,6 +32,20 @@
     content: "";
 }
 
+.btn-login{
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    background: lightgray;
+}
+
+.btn-login:hover{
+    border: 1px solid lightgray;
+    background: cornflowerblue;
+    color: white;
+}
 
 div .bar {
   margin: 10px 0px 10px 0px;
