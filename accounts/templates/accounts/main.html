@@ -26,6 +26,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-bars"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item margin-l-16" >
@@ -34,8 +35,12 @@
         <li class="nav-item margin-l-16">
           <a class="nav-link" style="color: lightgray; font-size: larger" href="#">Clubs</a>
         </li>
-
       </ul>
+
+
+      <button class="btn-login">Login</button>
+
+
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" style="background-color: lightgray;color: black" type="submit">Search</button>
@@ -45,8 +50,13 @@
 </nav>
 
 
+
+
+
+
+
 <!-- side bar -->
-<div class="left" style="position: fixed; background-color: lightgray; width: 75px; height: 220px; top: 30%; opacity: 0.6; border: 1px solid darkgray">
+<div class="left" style="position: fixed; background-color: lightgray; width: 75px; height: 220px; top: 35%; opacity: 0.6; border: 1px solid darkgray">
     <ul class="bar">
         <li><a href="#"><i class="fa fa-calendar"></i></a> </li>
         <li><a href="#"><i class="fa fa-bars"></i></a> </li>
@@ -59,11 +69,15 @@
 
 
 
+
+
 <!-- content -->
 <main class="flex-shrink-0" style="height: 737px">
     {% block content %}
 	{% endblock %}
 </main>
+
+
 
 
 
